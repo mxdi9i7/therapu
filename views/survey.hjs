@@ -1,0 +1,6 @@
+{{>header}}
+<link rel="stylesheet" href="stylesheets/survey.css">
+    <div class="surveyBg">
+
+    </div>
+{{>footer}}

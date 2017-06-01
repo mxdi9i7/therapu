@@ -1,18 +1,18 @@
-<app-nav-bar></app-nav-bar>
-
+{{>header}}
+<link rel="stylesheet" href="stylesheets/login.css">
 <section class="login-container">
   <div class="container">
   <div class="card"></div>
   <div class="card">
     <h1 class="title">登录</h1>
-    <form (submit)="authenticate($event)">
+    <form action="/login" method="post">
       <div class="input-container">
-        <input type="#{type}" id="#{label}" required="required" [(ngModel)]="email" name="email"/>
+        <input type="#{type}" id="#{label}" required="required" name="username"/>
         <label for="#{label}">电子邮箱</label>
         <div class="bar"></div>
       </div>
       <div class="input-container">
-        <input type="#{type}" id="#{label}" [(ngModel)]="password" name="password" required="required"/>
+        <input type="#{type}" id="#{label}" name="password" required="required"/>
         <label for="#{label}">密码</label>
         <div class="bar"></div>
       </div>
@@ -27,7 +27,7 @@
     <h1 class="title">注册
       <div class="close"></div>
     </h1>
-    <form (submit)="signup($event)">
+    <form action="/signup" method="post">
       <div class="input-container">
         <input type="#{type}" id="#{label}" required="required"/>
         <label for="#{label}">电子邮箱</label>
@@ -52,5 +52,5 @@
 
 </section>
 
-
-<app-footer></app-footer>
+ 
+{{>footer}}

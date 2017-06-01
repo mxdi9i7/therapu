@@ -1,15 +1,41 @@
 var express = require('express');
 var router = express.Router();
-var mongojs = require('mongojs');
-var db = mongojs('mongodb://localhost:27017/therapu', ['users']);
+var db = require('../db')
+var session = require('express-session')
+var passport = require('passport')
+require('../passport')
+require('../checkAuth')
+
 var userCollection = db.collection('users');
 
 /* GET home page. */
 router.get('/login', function(req, res, next) {
-   userCollection.find(function(err, users) {
-       res.json(users);
-   })
-   
+	
+   res.render('login', { 
+    partials: {
+      header: '../views/partials/header',
+      footer: '../views/partials/footer'
+    },
+    title: 'Home'
+   });
 });
+router.post('/login', passport.authenticate('local', {
+	successRedirect: '/',
+	failureRedirect: '/login'
+}))
+
+
+
+
+
+
+router.get('/status', (req, res, next)=> {
+		res.send({
+			session: req.session,
+			user: req.user,
+			authenticate: req.isAuthenticated()
+		})
+	})
+
 
 module.exports = router;
