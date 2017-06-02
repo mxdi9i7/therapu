@@ -23,6 +23,11 @@ router.post('/login', passport.authenticate('local', {
 	successRedirect: '/',
 	failureRedirect: '/login'
 }))
+.get('/logout', (req, res, next) => {
+	req.session.destroy((err) => {
+		res.redirect('/login')
+	})
+})
 
 
 

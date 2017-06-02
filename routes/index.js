@@ -8,7 +8,16 @@ router.get('/', function(req, res, next) {
       header: '../views/partials/header',
       footer: '../views/partials/footer'
     },
-    title: 'Home'
+    title: 'Home',
+    auth: function() {
+      if (req.user) {
+        if (req.user.admin) {
+          return 2
+        }
+        return 1
+      }
+    }, 
+    
    });
 });
 

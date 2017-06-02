@@ -9,6 +9,7 @@ var db = require('./db');
 var cors = require('cors');
 
 var index = require('./routes/index');
+var createSurvey = require('./routes/createSurvey');
 var users = require('./routes/users');
 var authRoute = require('./routes/auth');
 var about = require('./routes/about');
@@ -37,6 +38,7 @@ app.use('/users', users);
 app.use('/', authRoute);
 app.use('/about', about);
 app.use('/survey', survey);
+app.use('/createSurvey', createSurvey);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

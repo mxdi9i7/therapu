@@ -16,7 +16,10 @@
           <li><a href="/">首页</a></li>
           <li><a href="/about">关于我们</a></li>
           <li><a href="/survey">调查问卷</a></li>
-          <li><a class="btn white green-text" href="/login">登录</a></li>
+          <li><a class="btn white green-text" href="/createSurvey" id="createSurvey">添加问卷</a></li>
+          <li><a class="btn white green-text" href="/login" id="loginBtn">登录</a></li>
+          <li><a class="btn white red-text" href="/logout" id="logoutBtn">注销</a></li>
+          
         </ul>
         <ul class="side-nav" id="mobile-demo">
           <li><a href="/">首页</a></li>
@@ -26,4 +29,5 @@
         </ul>
       </div>
     </nav>
+    <input type="text" value="{{auth}}" id="checkAuth">
 
