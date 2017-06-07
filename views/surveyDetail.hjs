@@ -1,0 +1,91 @@
+{{>header}}
+<link rel="stylesheet" href="../stylesheets/surveyDetail.css">
+
+    <section class="surveyDetail">
+        <h1>{{survey.title}}</h1>
+        <div class="row">
+            <div class="col s12 m3 l3">
+                问题数量：{{survey.numberOfQuestion}}
+            </div>
+            <div class="col s12 m3 l3">
+                创建日期：{{survey.created_at}}
+            </div>
+            <div class="col s12 m3 l3">
+                过期日期：{{survey.expirationDate}}
+            </div>
+            <div class="col s12 m3 l3">
+                问题编号：{{survey._id}}
+            </div>
+            <input type="text" id="nQuestion" hidden value="{{survey.numberOfQuestion}}">
+            <input type="text" id="surveyData" hidden value="{{surveyData}}">
+        </div>
+        <form action="/survey/surveyDetail" method="post">
+        <input type="text" hidden value="{{survey._id}}" name="id">
+
+            <div class="row" id="questionContent">
+                <div class="col s12 m12 l12 questionBlock {{survey.question1.identifier}}">
+                    <span>1. </span>
+                    <span class="question">{{survey.question1.title}}</span>
+                     <p>
+                        <input name="q1" type="radio" id="q1m1" value="{{survey.question1.mc1.pt}}" />
+                        <label for="q1m1">A. {{survey.question1.mc1.mc}}</label>
+                    </p>
+                     <p>
+                        <input name="q1" type="radio" id="q1m2" value="{{survey.question1.mc2.pt}}"  />
+                        <label for="q1m2">B. {{survey.question1.mc2.mc}}</label>
+                    </p>
+                     <p>
+                        <input name="q1" type="radio" id="q1m3" value="{{survey.question1.mc3.pt}}" />
+                        <label for="q1m3">C. {{survey.question1.mc3.mc}}</label>
+                    </p>
+                     <p>
+                        <input name="q1" type="radio" id="q1m4" value="{{survey.question1.mc4.pt}}" />
+                        <label for="q1m4">D. {{survey.question1.mc4.mc}}</label>
+                    </p>
+                </div>
+                <div class="col s12 m12 l12 questionBlock {{survey.question2.identifier}}">
+                    <span>2. </span>
+                    <span class="question">{{survey.question2.title}}</span>
+                     <p>
+                        <input name="q2" type="radio" id="q2m1" value="{{survey.question2.mc1.pt}}" />
+                        <label for="q2m1">A. {{survey.question2.mc1.mc}}</label>
+                    </p>
+                     <p>
+                        <input name="q2" type="radio" id="q2m2" value="{{survey.question2.mc2.pt}}"  />
+                        <label for="q2m2">B. {{survey.question2.mc2.mc}}</label>
+                    </p>
+                     <p>
+                        <input name="q2" type="radio" id="q2m3" value="{{survey.question2.mc3.pt}}" />
+                        <label for="q2m3">C. {{survey.question2.mc3.mc}}</label>
+                    </p>
+                     <p>
+                        <input name="q2" type="radio" id="q2m4" value="{{survey.question2.mc4.pt}}" />
+                        <label for="q2m4">D. {{survey.question2.mc4.mc}}</label>
+                    </p>
+                </div>
+                <div class="col s12 m12 l12 questionBlock {{survey.question3.identifier}}">
+                    <span>3. </span>
+                    <span class="question identifier">{{survey.question3.title}}</span>
+                     <p>
+                        <input name="q3" type="radio" id="q3m1" value="{{survey.question3.mc1.pt}}" />
+                        <label for="q3m1">A. {{survey.question3.mc1.mc}}</label>
+                    </p>
+                     <p>
+                        <input name="q3" type="radio" id="q3m2" value="{{survey.question3.mc2.pt}}"  />
+                        <label for="q3m2">B. {{survey.question3.mc2.mc}}</label>
+                    </p>
+                     <p>
+                        <input name="q3" type="radio" id="q3m3" value="{{survey.question3.mc3.pt}}" />
+                        <label for="q3m3">C. {{survey.question3.mc3.mc}}</label>
+                    </p>
+                     <p>
+                        <input name="q3" type="radio" id="q3m4" value="{{survey.question4.mc4.pt}}" />
+                        <label for="q3m4">D. {{survey.question3.mc4.mc}}</label>
+                    </p>
+                </div>
+            </div>
+            <button class="btn btn-large green" type="submit">提交问卷</button>
+        </form>
+    </section>
+<script src="../javascripts/surveyDetail.js"></script>
+{{>footer}}

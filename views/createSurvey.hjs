@@ -21,35 +21,35 @@
                     <h3>1.</h3>
                      <textarea id="textarea1" class="materialize-textarea" placeholder="问题1" name="q1t"></textarea>
                      <label for="textarea1">问题</label>
-                    <p>答案1：</p>
-                    <input placeholder="选项1" id="选项1" type="text" class="validate" name="q1m1">
-                    <label for="选项1">选项1</label>   
-                    <p>答案2：</p>
-                    <input placeholder="选项2" id="选项2" type="text" class="validate" name="q1m2">
-                    <label for="选项2">选项2</label>
-                    <p>答案3：</p>
-                    <input placeholder="选项3" id="选项3" type="text" class="validate" name="q1m3">
-                    <label for="选项3">选项3</label>
-                    <p>答案4：</p>
-                    <input placeholder="选项4" id="选项4" type="text" class="validate" name="q1m4">
-                    <label for="选项4">选项4</label>
+                    <p>选项1：</p>
+                    <input placeholder="选项1"  type="text" class="validate col s12 m10" name="q1m1">
+                    <input placeholder="选项1 得分" name="q1m1p" type="number" type="number" class="validate col s12 m2" >
+                    <p>选项2：</p>
+                    <input placeholder="选项2"  type="text" class="validate col s12 m10" name="q1m2">
+                    <input placeholder="选项2 得分" name="q1m2p" type="number" type="number" class="validate col s12 m2" >
+                    <p>选项3：</p>
+                    <input placeholder="选项3"  type="text" class="validate col s12 m10" name="q1m3">
+                    <input placeholder="选项3 得分" name="q1m3p" type="number" type="number" class="validate col s12 m2" >
+                    <p>选项4：</p>
+                    <input placeholder="选项4" type="text" class="validate col s12 m10" name="q1m4">
+                    <input placeholder="选项4 得分" name="q1m4p" type="number" type="number" class="validate col s12 m2" >
                 </div>
                 <div class="col s12 m12 l12 input-field">
                     <h3>2.</h3>
                      <textarea id="textarea2" class="materialize-textarea" placeholder="问题2" name="q2t"></textarea>
                      <label for="textarea2">问题</label>
-                    <p>答案1：</p>
-                    <input placeholder="选项1" id="选项1" type="text" class="validate" name="q2m1">
-                    <label for="选项1">选项1</label>   
-                    <p>答案2：</p>
-                    <input placeholder="选项2" id="选项2" type="text" class="validate" name="q2m2">
-                    <label for="选项2">选项2</label>
-                    <p>答案3：</p>
-                    <input placeholder="选项3" id="选项3" type="text" class="validate" name="q2m3">
-                    <label for="选项3">选项3</label>
-                    <p>答案4：</p>
-                    <input placeholder="选项4" id="选项4" type="text" class="validate" name="q2m4">
-                    <label for="选项4">选项4</label>
+                     <p>选项1：</p>
+                    <input placeholder="选项1"  type="text" class="validate col s12 m10" name="q2m1">
+                    <input placeholder="选项1 得分" name="q2m1p" type="number" type="number" class="validate col s12 m2" >
+                    <p>选项2：</p>
+                    <input placeholder="选项2"  type="text" class="validate col s12 m10" name="q2m2">
+                    <input placeholder="选项2 得分" name="q2m2p" type="number" type="number" class="validate col s12 m2" >
+                    <p>选项3：</p>
+                    <input placeholder="选项3"  type="text" class="validate col s12 m10" name="q2m3">
+                    <input placeholder="选项3 得分" name="q2m3p" type="number" type="number" class="validate col s12 m2" >
+                    <p>选项4：</p>
+                    <input placeholder="选项4" type="text" class="validate col s12 m10" name="q2m4">
+                    <input placeholder="选项4 得分" name="q2m4p" type="number" type="number" class="validate col s12 m2" >
                 </div>
             </div>
             <button class="btn" type="submit">提交</button>
