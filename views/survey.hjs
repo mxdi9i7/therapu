@@ -39,7 +39,6 @@
             </div>
         </div>
     </div> -->
-<div class="fullPage" id="fullPage">
     <div class="firstPart">
         <ul class="secondNav">
             <li class="secondNavLi_1">心理测试</li>
@@ -51,6 +50,8 @@
             <li class="secondNavLi">专业测试</li>
         </ul>
     </div>
+<div class="fullPage" id="fullPage">
+    
     <div class="secondPart row">
         <p class="col m2 l2">发现未知的自己 ：</p>
         <p class="col offset-m6">编辑推荐：</p>
@@ -88,47 +89,70 @@
                     <p class="col offset-m1 forthPart_p5">644人测试</p>
                 </div>
             </div>
+            <hr>
+            <p>爱情测试</p>
+            <div class="row col m6 l6">
+                <img src="images/survey1.jpg" class="col m4 l4 surveyImg3">
+                <p class="col m6 l6 forthPart_p1">自控力指数评估 <br> 冷静！你要抵抗住诱惑啊</p>
+                <p class="col offset-m3 forthPart_p2">616人测试</p>
+            </div>
+            <div class="row col m6 l6">
+                <img src="images/survey1.jpg" class="col m4 l4 surveyImg3">
+                <p class="col m6 l6 forthPart_p1">自控力指数评估 <br> 冷静！你要抵抗住诱惑啊</p>
+                <p class="col offset-m3 forthPart_p2">616人测试</p>
+            </div>
+            <div class="row">
+                <div class="row col m6">
+                    <p class="col m6 forthPart_p5">情人特性pH试纸（专业版)</p>
+                    <p class="col offset-m2 forthPart_p5">644人测试</p>
+                </div>
+                <div class="row col m6">
+                    <p class="col m forthPart_p5">情人特性pH试纸（专业版)</p>
+                    <p class="col offset-m1 forthPart_p5">644人测试</p>
+                </div>
+            </div>
         </div>
         <div class="row col m4">
             <hr>
             <img src="images/survey1.jpg" class="col m4">
             <p class="col m8">精选测试：MBTI职业性格测试</p>
-        </div>
-        <div class="col offset-m8">
+            <div>
             <p class="col m8 forthPart_p4">测你性格最真实的一面</p>
             <div class="col m4 forthPart_p3">
                 <i class="fa fa-users" aria-hidden="true"></i>
                 <span class="forthPart_p3_number">1667774人</span>
             </div>
         </div>
-        <div class="col offset-m8">
+        <div class="">
             <p class="col m8 forthPart_p4">测你性格最真实的一面</p>
             <div class="col m4 forthPart_p3">
                 <i class="fa fa-users" aria-hidden="true"></i>
                 <span class="forthPart_p3_number">1667774人</span>
             </div>
         </div>
-        <div class="col offset-m8">
+        <div>
             <p class="col m8 forthPart_p4">测你性格最真实的一面</p>
             <div class="col m4 forthPart_p3">
                 <i class="fa fa-users" aria-hidden="true"></i>
                 <span class="forthPart_p3_number">1667774人</span>
             </div>
         </div>
-        <div class="col offset-m8">
+        <div>
             <p class="col m8 forthPart_p4">测你性格最真实的一面</p>
             <div class="col m4 forthPart_p3">
                 <i class="fa fa-users" aria-hidden="true"></i>
                 <span class="forthPart_p3_number">1667774人</span>
             </div>
         </div>
-        <div class="col offset-m8">
+        <div>
             <p class="col m8 forthPart_p4">测你性格最真实的一面</p>
             <div class="col m4 forthPart_p3">
                 <i class="fa fa-users" aria-hidden="true"></i>
                 <span class="forthPart_p3_number">1667774人</span>
             </div>
         </div>
+        </div>
+        
     </div>
 </div>
 
