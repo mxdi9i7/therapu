@@ -1,4 +1,4 @@
-.surveyBg {
+/*.surveyBg {
     min-height: 300px;
     height: 40%;
     width: 100%;
@@ -19,4 +19,64 @@
 }
 .surveyList button.btn:hover {
 	cursor: pointer;
+}*/
+li {
+	display: inline;
+}
+.fullPage {
+	padding-left: 15%;
+	padding-right: 15%;
+}
+.secondNavLi {
+	padding: 0px 30px 0px 30px;
+	color: #4CAF50;
+}
+.secondNav {
+	background-color: #f3f3f3;
+	padding: 10px 20px 10px 20px;
+}
+.secondNavLi_1{
+	font-size: 40px;
+	padding-left: 25px;
+	padding-right: 20px;
+	vertical-align: -5px;
+	color: #4CAF50;
+}
+#newsBox {
+	padding: 100px 80px 100px 100px;
+	border: 1px solid;
+	font-size: 50px;
+	margin-top: 0px;
+	color: #4CAF50;
+}
+.surveyImg2 {
+	padding-left: 20px;
+}
+.forthPart_p1 {
+	font-size: 10px;
+	padding: 0;
+}
+#fullPage .surveyImg3 {
+	padding: 0;
+}
+.forthPart_p2 {
+	font-size: 8px;
+}hr{
+	margin-top: 10px;
+	border-top: 1px dashed #bbb
+}
+.forthPart_p3_number {
+	font-size: 5px;
+}
+#fullPage i {
+	font-size: 5px;
+}
+.forthPart_p4 {
+	font-size: 18px;
+	margin: 0;
+}
+.forthPart_p5 {
+	font-size: 12px;
+	margin: 0;
+	margin-top: 30px;
 }
