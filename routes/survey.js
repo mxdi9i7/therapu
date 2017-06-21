@@ -31,6 +31,14 @@ router.get('/', function(req, res, next) {
     })
     
 })
+router.delete('/', (req, res, next) => {
+    var id  = req.body.id;
+    console.log(id)
+    surveyCollection.remove({_id: mongojs.ObjectId(id)}, (err, doc) => {
+        console.log('deleted', doc)
+        res.redirect('/survey')
+    })
+})
 router.get('/:id', function(req, res, next) {
     var { id } = req.params;
     surveyCollection.findOne({_id: mongojs.ObjectId(id)}, function(err, doc) {

@@ -1,11 +1,11 @@
 {{>header}}
 <link rel="stylesheet" href="stylesheets/index.css">
-<section class="index-section">
+<!-- <section class="index-section">
   <div class="index-header">
     <h1>Therapu</h1>
   </div>
   <img src="images/index-bg.png" alt="">
-</section>
+</section> -->
 <section class="article-section">
     <div class="row">
       <div class="col s12 m6 l6">

@@ -14,6 +14,7 @@ var users = require('./routes/users');
 var authRoute = require('./routes/auth');
 var about = require('./routes/about');
 var survey = require('./routes/survey');
+var article = require('./routes/article');
 var passport = require('passport')
 require('passport');
 var app = express();
@@ -36,9 +37,11 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', index);
 app.use('/users', users);
 app.use('/', authRoute);
+app.use('/article', article);
 app.use('/about', about);
 app.use('/survey', survey);
 app.use('/createSurvey', createSurvey);
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

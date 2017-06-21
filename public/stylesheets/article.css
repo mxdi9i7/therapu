@@ -1,0 +1,12 @@
+.articleList {
+	padding: 50px 10%;
+}
+.articleBg {
+    min-height: 300px;
+    height: 40%;
+    width: 100%;
+    background-image: url(../images/login-bg.jpg)
+}
+.articleList form {
+	display: inline;
+}

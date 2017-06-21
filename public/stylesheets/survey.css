@@ -7,3 +7,16 @@
 .surveyList {
     padding: 30px 20%;
 }
+.surveyList a {
+	display: inline;
+}
+.surveyList form {
+	display: inline;
+}
+
+.surveyList button.btn {
+	display: inline;
+}
+.surveyList button.btn:hover {
+	cursor: pointer;
+}

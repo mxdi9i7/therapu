@@ -17,17 +17,26 @@ $(document).ready(function() {
     //check admin logic
     
     if (parseInt($('#checkAuth').val()) == 1) {
+      //logged in
       $('#loginBtn').hide()
       $('#logoutBtn').show()
       $('#createSurvey').hide()
+      $('.deleteBtn').hide()
+      $('#createArticle').hide()
     } else if (parseInt($('#checkAuth').val()) == 2) {
+      //admin
       $('#createSurvey').show()
       $('#loginBtn').hide()
       $('#logoutBtn').show()
+      $('.deleteBtn').show()
+      $('#createArticle').show()
     } else {
+      //not logged in
       $('#loginBtn').show()
       $('#logoutBtn').hide()
       $('#createSurvey').hide()
+      $('.deleteBtn').hide()
+      $('#createArticle').hide()
     }
 
     
