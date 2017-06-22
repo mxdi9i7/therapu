@@ -23,6 +23,9 @@
 li {
 	display: inline;
 }
+.firstPart {
+	margin-top: 63px;
+}
 .fullPage {
 	padding-left: 15%;
 	padding-right: 15%;

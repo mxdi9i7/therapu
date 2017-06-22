@@ -9,20 +9,20 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <link rel="stylesheet" href="../../stylesheets/nav.css">
-    <nav class="navBar white green-text">
+    <nav class="navBar white-text">
       <div class="nav-wrapper">
         <a href="/" class="brand-logo">
-          <img src="images/icon.jpg" alt="" height="50">
+          <img src="images/logo-long.png" alt="" height="50">
         </a>
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down green-text">
-          <li><a class="green-text" href="/">首页</a></li>
-          <li><a class="green-text" href="/about">关于我们</a></li>
-          <li><a class="green-text" href="/article">心理文章</a></li>
-          <li><a class="green-text" href="/survey">调查问卷</a></li>
-          <li><a class="btn green white-text" href="/article/create" id="createArticle">添加文章</a></li>
+          <li><a class="white-text" href="/">首页</a></li>
+          <li><a class="white-text" href="/about">关于我们</a></li>
+          <li><a class="white-text" href="/article">心理文章</a></li>
+          <li><a class="white-text" href="/survey">调查问卷</a></li>
+          <li><a class="btn white green-text" href="/article/create" id="createArticle">添加文章</a></li>
           <li><a class="btn green white-text" href="/createSurvey" id="createSurvey">添加问卷</a></li>
-          <li><a class="btn green white-text" href="/login" id="loginBtn">登录</a></li>
+          <li><a class="btn white green-text" href="/login" id="loginBtn">登录</a></li>
           <li><a class="btn red white-text" href="/logout" id="logoutBtn">注销</a></li>
           
         </ul>
