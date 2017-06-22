@@ -1,0 +1,109 @@
+.about-background-section {
+	background-color: rgba(0,0,0,0.2);
+	height: 150vh;
+	width: 100%;
+	
+}
+.top-bg {
+	background-image: url('../images/bg2.jpg');
+	background-size: cover;
+	height: 40vh;
+	width: 100%;
+}
+.raised-about-div {
+	background-color: white;
+	border-radius: 6px;
+	height: 140vh;
+	width: 95%;
+	margin: 0px auto;
+	box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+	position: relative;
+	bottom: 80px;
+	z-index: 1;
+}
+.raised-about-div .raised-logo {
+	height: 100px;
+	position: relative;
+	z-index: 2;
+	bottom: 50px;
+	box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+	margin: 0 auto;
+	display: block;
+}
+.brand-text {
+	font-size: 36px;
+	font-weight: 600;
+	text-align: center;
+	margin: 0px 0;
+}
+.brand-subtext {
+	font-size: 18px;
+	font-weight: 100;
+	text-align: center;
+}
+.brand-intro-text {
+	font-size: 14px;
+	font-weight: 300;
+	color: #777;
+	text-align: center;
+	margin: 50px auto;
+	width: 50%;
+}
+.about-tabs {
+	padding: 50px 0%;
+}
+.about-tabs ul {
+	width: 80%;
+	margin: 0 auto;
+}
+.about-tabs button i {
+	display: block;
+	margin: 0 auto;
+	width: auto;
+	padding-bottom: 15px;
+	font-size: 40px;
+}
+.about-tabs button {
+	background-color: white;
+	border: none;
+	border-radius: 3px;
+	font-weight: 600;
+	width: 150px;
+	padding: 15px 10px;
+	transition: 0.4s;
+	font-size: 14px;
+	font-weight: 100;
+	line-height: 24px;
+	color: #555;
+}
+.about-tabs button:hover {
+	background-color: rgba(200,200,200,0.2);
+}
+.about-tabs button.activeBtn {
+	background-color: #7ebc47;
+	border: none;
+	border-radius: 3px;
+	font-weight: 600;
+	transition: 0.4s;
+	color: white;
+	box-shadow: 0 16px 26px -10px rgba(126, 188, 71, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(126, 188, 71, 0.2);
+}
+.about-tabs ul li {
+	display: inline;
+}
+
+.about-tabs .tabs-pane {
+	padding: 20px;
+	width: 80%;
+	margin: 0 auto;
+	color: #444;
+	font-weight: 100;
+}
+
+
+
+
+
+
+
+
