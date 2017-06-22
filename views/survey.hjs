@@ -52,12 +52,12 @@
     </div>
 <div class="fullPage" id="fullPage">
     
-    <div class="secondPart row">
+    <!-- <div class="secondPart row">
         <p class="col m2 l2">发现未知的自己 ：</p>
         <p class="col offset-m6">编辑推荐：</p>
     </div>
     <div class="thirdPart row">
-        <p class="newsBox col m8 l8" id="newsBox"> 你懂得😉</p>
+        <p class="newsBox col m8 l8" id="newsBox"></p>
         <div class="row col m4 l4">
             <img src="images/survey1.jpg" class="col m5 l5">
             <img src="images/survey1.jpg" class="col m5 l5">
@@ -65,51 +65,125 @@
         <div>
             <img src="images/survey2.png" class="surveyImg2">
         </div>
-    </div>
-    <div class="forthPart row">
-        <p>专业测评</p>
+    </div> -->
+    <div class="pro-survey-section row">
+        
         <div class=" row col m8 l8">
-            <div class="row col m6 l6">
-                <img src="images/survey1.jpg" class="col m4 l4 surveyImg3">
-                <p class="col m6 l6 forthPart_p1">自控力指数评估 <br> 冷静！你要抵抗住诱惑啊</p>
-                <p class="col offset-m3 forthPart_p2">616人测试</p>
+        <p class="survey-title">专业测评</p>
+            <div class="row col m6 l6 survey-box">
+                <img src="images/carousel-demo1.jpg" class="col m4 l4 surveyImg3">
+                <p class="col m6 l6 pro-survey-section_p1">自控力指数评估 <br> 冷静！你要抵抗住诱惑啊</p>
+                <p class="col offset-m3 pro-survey-section_p2">616人测试</p>
             </div>
-            <div class="row col m6 l6">
-                <img src="images/survey1.jpg" class="col m4 l4 surveyImg3">
-                <p class="col m6 l6 forthPart_p1">自控力指数评估 <br> 冷静！你要抵抗住诱惑啊</p>
-                <p class="col offset-m3 forthPart_p2">616人测试</p>
+            <div class="row col m6 l6 survey-box">
+                <img src="images/carousel-demo2.jpg" class="col m4 l4 surveyImg3">
+                <p class="col m6 l6 pro-survey-section_p1">自控力指数评估 <br> 冷静！你要抵抗住诱惑啊</p>
+                <p class="col offset-m3 pro-survey-section_p2">616人测试</p>
             </div>
+            <!-- <div class="article-box">
+                        <div class="col s12 m5 l5 image-box">
+                          <img src="images/carousel-demo1.jpg" alt="">
+                        </div>
+                        <div class="col s12 m7 l7 content-box">
+                          <p>《重新认识出轨》：彼此是“真爱”，为何还会出轨？</p>
+                          <br>
+                          <span class="left">隔壁老王</span>
+                          <span class="right hide-on-small-only"><i class="fa fa-eye" aria-hidden="true"></i> {{views}}</span>
+                        </div>
+                </div> -->
             <div class="row">
                 <div class="row col m6">
-                    <p class="col m6 forthPart_p5">情人特性pH试纸（专业版)</p>
-                    <p class="col offset-m2 forthPart_p5">644人测试</p>
+                    <ul>
+                        <li>
+                            <span class="left"> 情人特性pH试纸（专业版)
+                            </span>
+                            <span class="right">644人测试</span>
+                        </li>
+                        <li>
+                            <span class="left"> 情人特性pH试纸（专业版)
+                            </span>
+                            <span class="right">644人测试</span>
+                        </li>
+                        <li>
+                            <span class="left"> 情人特性pH试纸（专业版)
+                            </span>
+                            <span class="right">644人测试</span>
+                        </li>
+                    </ul>
                 </div>
                 <div class="row col m6">
-                    <p class="col m forthPart_p5">情人特性pH试纸（专业版)</p>
-                    <p class="col offset-m1 forthPart_p5">644人测试</p>
+                    <ul>
+                        <li>
+                            <span class="left"> 情人特性pH试纸（专业版)
+                            </span>
+                            <span class="right">644人测试</span>
+                        </li>
+                        <li>
+                            <span class="left"> 情人特性pH试纸（专业版)
+                            </span>
+                            <span class="right">644人测试</span>
+                        </li>
+                        <li>
+                            <span class="left"> 情人特性pH试纸（专业版)
+                            </span>
+                            <span class="right">644人测试</span>
+                        </li>
+                    </ul>
                 </div>
             </div>
             <hr>
-            <p>爱情测试</p>
-            <div class="row col m6 l6">
-                <img src="images/survey1.jpg" class="col m4 l4 surveyImg3">
-                <p class="col m6 l6 forthPart_p1">自控力指数评估 <br> 冷静！你要抵抗住诱惑啊</p>
-                <p class="col offset-m3 forthPart_p2">616人测试</p>
+            <p class="survey-title">爱情测试</p>
+            <div class="row col m6 l6 survey-box">
+                <img src="images/carousel-demo2.jpg" class="col m4 l4 surveyImg3">
+                <p class="col m6 l6 pro-survey-section_p1">自控力指数评估 <br> 冷静！你要抵抗住诱惑啊</p>
+                <p class="col offset-m3 pro-survey-section_p2">616人测试</p>
             </div>
-            <div class="row col m6 l6">
-                <img src="images/survey1.jpg" class="col m4 l4 surveyImg3">
-                <p class="col m6 l6 forthPart_p1">自控力指数评估 <br> 冷静！你要抵抗住诱惑啊</p>
-                <p class="col offset-m3 forthPart_p2">616人测试</p>
+            <div class="row col m6 l6 survey-box">
+                <img src="images/carousel-demo3.jpg" class="col m4 l4 surveyImg3">
+                <p class="col m6 l6 pro-survey-section_p1">自控力指数评估 <br> 冷静！你要抵抗住诱惑啊</p>
+                <p class="col offset-m3 pro-survey-section_p2">616人测试</p>
             </div>
             <div class="row">
+                <div class="row">
                 <div class="row col m6">
-                    <p class="col m6 forthPart_p5">情人特性pH试纸（专业版)</p>
-                    <p class="col offset-m2 forthPart_p5">644人测试</p>
+                    <ul>
+                        <li>
+                            <span class="left"> 情人特性pH试纸（专业版)
+                            </span>
+                            <span class="right">644人测试</span>
+                        </li>
+                        <li>
+                            <span class="left"> 情人特性pH试纸（专业版)
+                            </span>
+                            <span class="right">644人测试</span>
+                        </li>
+                        <li>
+                            <span class="left"> 情人特性pH试纸（专业版)
+                            </span>
+                            <span class="right">644人测试</span>
+                        </li>
+                    </ul>
                 </div>
                 <div class="row col m6">
-                    <p class="col m forthPart_p5">情人特性pH试纸（专业版)</p>
-                    <p class="col offset-m1 forthPart_p5">644人测试</p>
+                    <ul>
+                        <li>
+                            <span class="left"> 情人特性pH试纸（专业版)
+                            </span>
+                            <span class="right">644人测试</span>
+                        </li>
+                        <li>
+                            <span class="left"> 情人特性pH试纸（专业版)
+                            </span>
+                            <span class="right">644人测试</span>
+                        </li>
+                        <li>
+                            <span class="left"> 情人特性pH试纸（专业版)
+                            </span>
+                            <span class="right">644人测试</span>
+                        </li>
+                    </ul>
                 </div>
+            </div>
             </div>
         </div>
         <div class="row col m4">
@@ -117,38 +191,38 @@
             <img src="images/survey1.jpg" class="col m4">
             <p class="col m8">精选测试：MBTI职业性格测试</p>
             <div>
-            <p class="col m8 forthPart_p4">测你性格最真实的一面</p>
-            <div class="col m4 forthPart_p3">
+            <p class="col m8 pro-survey-section_p4">测你性格最真实的一面</p>
+            <div class="col m4 pro-survey-section_p3">
                 <i class="fa fa-users" aria-hidden="true"></i>
-                <span class="forthPart_p3_number">1667774人</span>
+                <span class="pro-survey-section_p3_number">1667774人</span>
             </div>
         </div>
         <div class="">
-            <p class="col m8 forthPart_p4">测你性格最真实的一面</p>
-            <div class="col m4 forthPart_p3">
+            <p class="col m8 pro-survey-section_p4">测你性格最真实的一面</p>
+            <div class="col m4 pro-survey-section_p3">
                 <i class="fa fa-users" aria-hidden="true"></i>
-                <span class="forthPart_p3_number">1667774人</span>
+                <span class="pro-survey-section_p3_number">1667774人</span>
             </div>
         </div>
         <div>
-            <p class="col m8 forthPart_p4">测你性格最真实的一面</p>
-            <div class="col m4 forthPart_p3">
+            <p class="col m8 pro-survey-section_p4">测你性格最真实的一面</p>
+            <div class="col m4 pro-survey-section_p3">
                 <i class="fa fa-users" aria-hidden="true"></i>
-                <span class="forthPart_p3_number">1667774人</span>
+                <span class="pro-survey-section_p3_number">1667774人</span>
             </div>
         </div>
         <div>
-            <p class="col m8 forthPart_p4">测你性格最真实的一面</p>
-            <div class="col m4 forthPart_p3">
+            <p class="col m8 pro-survey-section_p4">测你性格最真实的一面</p>
+            <div class="col m4 pro-survey-section_p3">
                 <i class="fa fa-users" aria-hidden="true"></i>
-                <span class="forthPart_p3_number">1667774人</span>
+                <span class="pro-survey-section_p3_number">1667774人</span>
             </div>
         </div>
         <div>
-            <p class="col m8 forthPart_p4">测你性格最真实的一面</p>
-            <div class="col m4 forthPart_p3">
+            <p class="col m8 pro-survey-section_p4">测你性格最真实的一面</p>
+            <div class="col m4 pro-survey-section_p3">
                 <i class="fa fa-users" aria-hidden="true"></i>
-                <span class="forthPart_p3_number">1667774人</span>
+                <span class="pro-survey-section_p3_number">1667774人</span>
             </div>
         </div>
         </div>
