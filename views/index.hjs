@@ -1,45 +1,280 @@
 {{>header}}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css" />
 <link rel="stylesheet" href="stylesheets/index.css">
-<!-- <section class="index-section">
-  <div class="index-header">
-    <h1>Therapu</h1>
-  </div>
-  <img src="images/index-bg.png" alt="">
-</section> -->
-<section class="article-section">
+
+<section class="main-section">
+    <div class="ads"></div>
     <div class="row">
-      <div class="col s12 m6 l6">
-              <div class="card">
-                <div class="card-image">
-                  <img src="images/index-bg.png">
-                  <span class="card-title">Card Title</span>
+        <div class="col s12 m8 l8 main-left-div">
+            <div class="row main-section-top-row">
+             
+              <div class="col s12 m12 l12">
+                    <div class="card white main-popular-articles">
+                      <div class="card-content white-text">
+                        <span class="card-title green-text">一周热文</span>
+                        <div class="divider"></div>
+                         <div class="col s12 m12 l12 main-carousel-div">
+                            <div class="owl-carousel owl-theme">
+                                <div class="item">
+                                  <img src="images/carousel-demo1.jpg" alt="">
+                                  <h4>科学家揭秘人类大脑秘密</h4>
+                                </div>
+                                <div class="item">
+                                  <img src="images/carousel-demo2.jpg" alt="">
+                                  <h4>人群中的孤独患者</h4>
+                                </div>
+                                <div class="item">
+                                  <img src="images/carousel-demo3.jpg" alt="">
+                                  <h4>瑜伽的妙处</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <ul>
+                          {{#featuredArticles}}
+                              <li><a class="left-align" href="/articles/{{_id}}">{{title}}</a><span class="right hide-on-small-only"><i class="fa fa-eye" aria-hidden="true"></i> {{views}}</span></li>
+                          {{/featuredArticles}}
+                        </ul>
+                      </div>
+                     
+                    </div>
+              </div>
+          </div>
+          <div class="col s12">
+            <div class="card main-articles-section white">
+              <div class="card-content">
+                  <span class="card-title">看文章</span>
+                  <div class="divider"></div>
+              </div>
+              <div class="card-tabs">
+                <ul class="tabs tabs-fixed-width">
+                  <li class="tab"><a href="#all">全部</a></li>
+                  <li class="tab"><a class="active" href="#hunlian">婚恋</a></li>
+                  <li class="tab"><a href="#jiankang">健康</a></li>
+                   <li class="tab"><a href="#zhichang">职场</a></li>
+                  <li class="tab"><a href="#sex">性心理</a></li>
+                  <li class="tab"><a href="#kepu">科普</a></li>
+                </ul>
+              </div>
+              <div class="card-content white">
+                <div id="all"></div>
+                <div id="hunlian">
+                  <div class="row">
+                    <div class="col s12 m6 l6">
+                      <div class="article-box">
+                        <div class="col s12 m5 l5 image-box">
+                          <img src="images/carousel-demo1.jpg" alt="">
+                        </div>
+                        <div class="col s12 m7 l7 content-box">
+                          <p>《重新认识出轨》：彼此是“真爱”，为何还会出轨？</p>
+                          <br>
+                          <span class="left">隔壁老王</span>
+                          <span class="right hide-on-small-only"><i class="fa fa-eye" aria-hidden="true"></i> {{views}}</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col s12 m6 l6">
+                      <div class="article-box">
+                        <div class="col s12 m5 l5 image-box">
+                          <img src="images/carousel-demo1.jpg" alt="">
+                        </div>
+                        <div class="col s12 m7 l7 content-box">
+                          <p>《重新认识出轨》：彼此是“真爱”，为何还会出轨？</p>
+                          <br>
+                          <span class="left">隔壁老王</span>
+                          <span class="right hide-on-small-only"><i class="fa fa-eye" aria-hidden="true"></i> {{views}}</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col s12 m6 l6">
+                      <div class="article-box">
+                        <div class="col s12 m5 l5 image-box">
+                          <img src="images/carousel-demo1.jpg" alt="">
+                        </div>
+                        <div class="col s12 m7 l7 content-box">
+                          <p>《重新认识出轨》：彼此是“真爱”，为何还会出轨？</p>
+                          <br>
+                          <span class="left">隔壁老王</span>
+                          <span class="right hide-on-small-only"><i class="fa fa-eye" aria-hidden="true"></i> {{views}}</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col s12 m6 l6">
+                      <div class="article-box">
+                        <div class="col s12 m5 l5 image-box">
+                          <img src="images/carousel-demo1.jpg" alt="">
+                        </div>
+                        <div class="col s12 m7 l7 content-box">
+                          <p>《重新认识出轨》：彼此是“真爱”，为何还会出轨？</p>
+                          <br>
+                          <span class="left">隔壁老王</span>
+                          <span class="right hide-on-small-only"><i class="fa fa-eye" aria-hidden="true"></i> {{views}}</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col s12 m6 l6">
+                      <div class="article-box">
+                        <div class="col s12 m5 l5 image-box">
+                          <img src="images/carousel-demo1.jpg" alt="">
+                        </div>
+                        <div class="col s12 m7 l7 content-box">
+                          <p>《重新认识出轨》：彼此是“真爱”，为何还会出轨？</p>
+                          <br>
+                          <span class="left">隔壁老王</span>
+                          <span class="right hide-on-small-only"><i class="fa fa-eye" aria-hidden="true"></i> {{views}}</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col s12 m6 l6">
+                      <div class="article-box">
+                        <div class="col s12 m5 l5 image-box">
+                          <img src="images/carousel-demo1.jpg" alt="">
+                        </div>
+                        <div class="col s12 m7 l7 content-box">
+                          <p>《重新认识出轨》：彼此是“真爱”，为何还会出轨？</p>
+                          <br>
+                          <span class="left">隔壁老王</span>
+                          <span class="right hide-on-small-only"><i class="fa fa-eye" aria-hidden="true"></i> {{views}}</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>  
                 </div>
-                <div class="card-content">
-                  <p>I am a very simple card. I am good at containing small bits of information.
-                  I am convenient because I require little markup to use effectively.</p>
+                <div id="jiankang">Test 3</div>
+                <div id="zhichang">Test 2</div>
+                <div id="sex">Test 3</div>
+                <div id="kepu">Test 2</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4 l4 main-right-div">
+            <div class="main-user-profile">
+                <div class="card-panel white">
+                  <div class="row valign-wrapper">
+                    <div class="col s2">
+                      <img src="images/user-avatar.svg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+                    </div>
+                    <div class="col s10">
+                      <a class="btn green center-align waves-effect waves-light login-btn" href="/login">登录</a>
+                      <div class="personal-info">
+                        <p>姓名: <strong>{{currentUser.fullName}}</strong></p>
+                        <p>年龄: <strong> {{currentUser.age}}</strong></p>
+                      </div>
+                    </div>
+                    
+                  </div>
+                  <div class="row">
+                       <div class="col s6">
+                          <a href="" class="btn btn-flat">我的问卷 0</a>
+                      </div>  
+                      <div class="col s6">
+                          <a href="" class="btn btn-flat">我的收藏 0</a>
+                      </div>  
+                    </div>
                 </div>
-                <div class="card-action">
-                  <a href="#">This is a link</a>
+            </div>
+            <div class="main-reservation-div">
+                <div class="card white">
+                  <div class="card-content white-text">
+                    <span class="card-title">约专家</span>
+                    <div class="divider"></div>
+                     <ul class="collection">
+                        <li class="collection-item avatar">
+                          <img src="images/user-avatar.svg" alt="" class="circle">
+                          <span class="title">老铁</span>
+                          <span class="price">300元／次</span>
+                          <p class="experience">国家一级心理治疗师
+                            
+                          </p>
+                          <p>上海市</p>
+                          <a href="#!" class="secondary-content">预约</a>
+                        </li>
+                        <li class="collection-item avatar">
+                          <img src="images/user-avatar.svg" alt="" class="circle">
+                          <span class="title">老铁</span>
+                          <span class="price">300元／次</span>
+                          <p class="experience">国家一级心理治疗师
+                            
+                          </p>
+                          <p>上海市</p>
+                          <a href="#!" class="secondary-content">预约</a>
+                        </li>
+                        <li class="collection-item avatar">
+                          <img src="images/user-avatar.svg" alt="" class="circle">
+                          <span class="title">老铁</span>
+                          <span class="price">300元／次</span>
+                          <p class="experience">国家一级心理治疗师
+                            
+                          </p>
+                          <p>上海市</p>
+                          <a href="#!" class="secondary-content">预约</a>
+                        </li>
+                        <li class="collection-item avatar">
+                          <img src="images/user-avatar.svg" alt="" class="circle">
+                          <span class="title">老铁</span>
+                          <span class="price">300元／次</span>
+                          <p class="experience">国家一级心理治疗师
+                            
+                          </p>
+                          <p>上海市</p>
+                          <a href="#!" class="secondary-content">预约</a>
+                        </li>
+                        <li class="collection-item avatar">
+                          <img src="images/user-avatar.svg" alt="" class="circle">
+                          <span class="title">老铁</span>
+                          <span class="price">300元／次</span>
+                          <p class="experience">国家一级心理治疗师
+                            
+                          </p>
+                          <p>上海市</p>
+                          <a href="#!" class="secondary-content">预约</a>
+                        </li>
+                        
+                      </ul>
+                  </div>
+                  <div class="card-action">
+                    <a href="#" class="green-text center-align">更多专家</a>
+                  </div>
+                </div>
+            </div>
+            <div class="card white">
+              <div class="card-content white-text">
+                <span class="card-title">做测试</span>
+                <div class="divider"></div>
+                <div class="survey-box">
+                  <img src="images/carousel-demo2.jpg" alt="">
+                  <p>你是《楚乔传》中的哪个角色？来测测看！</p>
+                  <span class="hide-on-small-only"><i class="fa fa-pencil" aria-hidden="true"></i>1231 {{views}}</span>
+                </div>
+                 <div class="survey-box">
+                  <img src="images/carousel-demo3.jpg" alt="">
+                  <p>你是《楚乔传》中的哪个角色？来测测看！</p>
+                  <span class="hide-on-small-only"><i class="fa fa-pencil" aria-hidden="true"></i>1231 {{views}}</span>
+                </div>
+                 <div class="survey-box">
+                  <img src="images/carousel-demo1.jpg" alt="">
+                  <p>你是《楚乔传》中的哪个角色？来测测看！</p>
+                  <span class="hide-on-small-only"><i class="fa fa-pencil" aria-hidden="true"></i>1231 {{views}}</span>
                 </div>
               </div>
-              
-      </div>
-      <div class="col s12 m6 l6">
-             <div class="card">
-                <div class="card-image">
-                  <img src="images/index-bg.png">
-                  <span class="card-title">Card Title</span>
-                </div>
-                <div class="card-content">
-                  <p>I am a very simple card. I am good at containing small bits of information.
-                  I am convenient because I require little markup to use effectively.</p>
-                </div>
-                <div class="card-action">
-                  <a href="#">This is a link</a>
-                </div>
+              <div class="card-action">
+                <a href="#" class="center-align green-text">更多心理测试</a>
               </div>
-      </div>
+            </div>  
+        </div>
     </div>
+    
 </section>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+<script>
+  $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:0,
+    nav:false,
+    items:1,
+    dots: true
+})
+</script>
 {{>footer}}

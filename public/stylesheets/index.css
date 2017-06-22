@@ -1,19 +1,175 @@
-.index-section {
-    height: 70vh;
-    width: 100%;
-    position: absolute;
-    top: 65px;
-    background-color: rgb(141, 191, 66);
-}
-.index-section img {
-    float: right;
-    clear: both;
-    height: 80%;
-    position: absolute;
-    bottom: 0;
-    right: 0;
+#body {
+    background-color: #fafafa;
 }
 .article-section {
     margin-top: calc(70vh + 80px);
     padding: 20px 20%;
+}
+.main-section {
+    padding: 63px 5%;
+}
+.main-section .ads {
+    margin-top: 40px;
+    background-image: url(../images/demo-ads.png);
+    height: 100px;
+    background-size: cover;
+    width: 100%;
+}
+.main-section-top-row {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    overflow-y: hidden;
+}
+.main-section .owl-carousel {
+
+}
+.main-section .owl-carousel .item h4 {
+    position: relative;
+    bottom: 20px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    font-size: 1.5rem;
+    padding: 15px 5px;
+    font-weight: 100;
+    font-weight: 'Roboto';
+    letter-spacing: 1px;
+}
+.main-section .main-left-div {
+    padding-left: 0;
+
+}
+.main-section .main-carousel-div {
+    padding: 0;
+}
+.main-section .owl-carousel .owl-dots {
+    margin: 0;
+    position: relative;
+    bottom: 120px;
+}
+.main-section .main-popular-articles {
+    background-color: white;
+    padding: 10px 20px;
+    margin-top: 0;
+}
+.main-section .main-popular-articles li a {
+    color: #444;
+    font-size: 16px;
+    font-weight: 300;
+    text-overflow: ellipsis;
+    width: 100%;
+}
+.main-section .main-popular-articles li a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+.main-section .main-popular-articles li {
+    margin: 10px 0;
+}
+.main-section .main-popular-articles li span {
+    color: #444;
+}
+.main-user-profile  {
+    margin-top: 20px;
+}
+.main-user-profile img.circle {
+    height: 50px;
+}
+.main-section .main-user-profile .card-panel {
+    padding: 5px;
+}
+.main-section .main-user-profile .row {
+    margin-bottom: 5px;
+}
+.main-section span.card-title {
+    color: #26a69a;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.main-section div.main-reservation-div .avatar img.circle{
+    height: 50px;
+}
+.main-section div.main-reservation-div .avatar .title {
+    color: #26a69a;
+    font-weight: 600;
+}
+.main-section .avatar p {
+     color: #555;
+    font-size: 11px;
+    font-weight: 100;
+    margin: 0;
+    line-height: 12px;
+}
+.main-reservation-div .avatar p.experience {
+    margin-top: 10px;
+}
+.main-reservation-div .secondary-content {
+    background-color: #26a69a;
+    color: white;
+    font-size: 12px;
+    padding: 3px 10px;
+}
+.card-action a {
+    display: block;
+}
+ .card-action a:hover {
+    display: block;
+    cursor: pointer;
+}
+.main-articles-section .card-content {
+    padding-bottom: 0;
+}
+.main-articles-section ul.tabs a {
+    color: #444;
+}
+.main-articles-section ul.tabs a.active {
+    color: #26a69a;
+}
+.main-articles-section ul.tabs .indicator {
+    background-color: #26a69a;
+}
+.main-articles-section .card-content .image-box img {
+    height: 80px;
+    width: 120px;
+}
+.main-articles-section .card-content .content-box p {
+    font-size: 14px;
+    color: #444;
+}
+.main-articles-section .card-content .col {
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+.main-articles-section .card-content span.left {
+    color: #3169b0;
+    font-size: 12px;
+    font-weight: 100;
+}
+.main-articles-section .card-content span.right {
+    color: #888;
+    font-weight: 100;
+    font-size: 11px;
+}
+.survey-box img {
+    padding: 15px 0;
+    height: 280px;
+    width: 280px;
+}
+.card .card-content .survey-box p {
+    color: #444;
+}
+.survey-box span {
+    color: #777;
+    padding-right: 10px;
+}
+@media only screen and (max-width: 1200px) {
+    .main-section {
+        padding: 63px 5px;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .main-section {
+        padding: 63px 10%;
+    }
 }

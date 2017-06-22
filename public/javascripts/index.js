@@ -23,12 +23,16 @@ $(document).ready(function() {
       $('#createSurvey').hide()
       $('.deleteBtn').hide()
       $('#createArticle').hide()
+      $('.login-btn').hide()
+      $('.personal-info').show()
     } else if (parseInt($('#checkAuth').val()) == 2) {
       //admin
       $('#createSurvey').show()
       $('#loginBtn').hide()
       $('#logoutBtn').show()
       $('.deleteBtn').show()
+      $('.login-btn').hide()
+      $('.personal-info').show()
       $('#createArticle').show()
     } else {
       //not logged in
@@ -37,6 +41,8 @@ $(document).ready(function() {
       $('#createSurvey').hide()
       $('.deleteBtn').hide()
       $('#createArticle').hide()
+      $('.personal-info').hide()
+      $('.login-btn').show()
     }
 
     
